@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -13,8 +17,20 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "app/(withNav)/JobDetails.js", "app/(withNav)/JobDetails.js", "app/(withNav)/Heading.js", "app/(withNav)/Heading.js", "app/(withNav)/Filters.js", "app/(withNav)/Filters.js", "app/(withNav)/DatePicker.js", "app/(withNav)/DatePicker.js", "app/(withNav)/layout.js", "app/(withNav)/layout.js", "app/(withNav)/Nav.js", "app/(withNav)/Nav.js", "app/(withNav)/page.js", "app/(withNav)/page.js", "app/(withNav)/Search.js", "app/(withNav)/Search.js", "app/(withNav)/BookingTable.jsableapp/(withNav)/BookingTable.jsookingTable.js", "app/Head.js", "app/Head.js", "app/(withoutNav)/layout.js", "app/(withoutNav)/layout.js", "app/(withoutNav)/head.js", "app/(withoutNav)/head.js", "app/(withoutNav)/login/Form.js", "app/(withoutNav)/login/Form.js", "app/(withoutNav)/login/page.js", "app/(withoutNav)/login/page.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
